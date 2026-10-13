@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("🚀 Day 2 - Docker Image Build & Push using GitHub Actions");
+    res.send("🚀 Day 4 - Docker Image Build & Push using GitHub Actions");
 });
 
 const PORT = 3000;
